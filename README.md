@@ -1,4 +1,4 @@
-# AMP Optimizer Action ⚡
+# AMP Optimizer Action :zap:
 
 GitHub Action to optimize AMP HTML files.
 
@@ -49,7 +49,7 @@ jobs:
     - name: Optimize AMP
       uses: asurbernardo/amp-optimizer-action@v0.1.0
       with:
-        root: 'public'
+        root: './public'
 
     - name: Deploy script
       uses: peaceiris/actions-gh-pages@v2.5.0
