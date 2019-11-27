@@ -1,5 +1,5 @@
 name: 'AMP optimizer action'
-description: 'GitHub Action to optimize AMP HTML files ⚡ It uses AMP Transformer library and recursively searchs for files to optimize. Designed for static web generator pipelines.'
+description: 'GitHub Action to optimize AMP HTML files :zap: It uses AMP Transformer library. Designed for static web generator pipelines.'
 author: 'asurbernardo'
 runs:
   using: 'docker'
