@@ -1,5 +1,5 @@
 name: 'AMP optimizer action'
-description: 'GitHub Actions to optimize AMP HTML 🚀 It uses AMP Transformer library and recursively searchs for files to apply SSR to. Designed for static web generator pipelines.'
+description: 'GitHub Action to optimize AMP HTML files ⚡ It uses AMP Transformer library and recursively searchs for files to optimize. Designed for static web generator pipelines.'
 author: 'asurbernardo'
 runs:
   using: 'docker'
@@ -9,6 +9,6 @@ branding:
   color: 'yellow'
 inputs:
   root:
-    description: 'The root directory to start the optimization from'
+    description: 'The root directory to start the search from'
     required: false
     default: '.'
