@@ -19,6 +19,6 @@ function skip() {
 for file in $(find ${INPUT_ROOT} -name "*.html"); do
     [ -f "$file" ] || break
     print_info "Optimizing $file" 
-    $GOPATH/bin/transform $file > /tmp/optimized.txt
+    ! $GOPATH/bin/transform $file > /tmp/optimized.txt
     [ -s /tmp/optimized.txt ] && cat /tmp/optimized.txt > $file || print_error "Not a valid AMP page. Omitting..."
 done
