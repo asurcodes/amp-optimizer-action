@@ -9,13 +9,15 @@ GitHub Action to optimize AMP HTML files.
 
 It uses AMP Transformer GoLang library and recursively searchs for files to optimize. Designed for static web generator pipelines.
 
+You can read more about AMP server side rendering on the [official blog](https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/server-side-rendering/).
+
 ## Usage
 
-As parameters this job accepts one:
+As parameters this job accepts the following:
 
 - **root**: The root folder where the AMP files are located
 
-Add the following step to your workflow:
+Add this step to your workflow:
 
 ```
     - name: Optimize AMP
